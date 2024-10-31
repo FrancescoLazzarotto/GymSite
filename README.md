@@ -1,5 +1,5 @@
 # GymSite
-This repository serves as an update to another university project at the link: , which features significant improvements using object-oriented PHP, jQuery, PDO for secure data management, password security measures against SQL injection, as well as RESTful and AJAX API implementations.
+This repository serves as an update to another university project at the link: https://github.com/FrancescoLazzarotto/GymSite-and-Managment-System , which features significant improvements using object-oriented PHP, jQuery, PDO for secure data management, password security measures against SQL injection, as well as RESTful and AJAX API implementations.
 
 Gym Management System Description:
 
