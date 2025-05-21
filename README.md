@@ -1,23 +1,77 @@
-# Web Technologies Project: Advanced Approaches – Full Stack Development of a Dynamic Gym Management System
-This repository serves as an update to another university project at the link: https://github.com/FrancescoLazzarotto/GymSite-and-Managment-System
+# Web Technologies Project: Advanced Approaches  
+## Full Stack Development of a Dynamic Gym Management System
 
-This project focuses on building a comprehensive gym management system using a full stack approach, integrating modern web development technologies. The system will provide an interactive platform for both gym members and administrators, leveraging a secure and scalable architecture.
+This repository contains the implementation of a **dynamic and interactive gym management system**, developed using a **full stack web development** approach.  
+It serves as an enhancement and continuation of a previous university project, available at the following link:  
+[Original Project – GymSite and Management System](https://github.com/FrancescoLazzarotto/GymSite-and-Managment-System)
 
-Key Technologies & Features:
-Front-End: HTML, CSS, JavaScript, and jQuery for a responsive and user-friendly interface.
-Back-End: PHP with an object-oriented approach, ensuring modular and maintainable code.
-Database Management: MySQL with PDO (PHP Data Objects) for secure database interactions, protecting against SQL injection.
-RESTful API & AJAX: Enabling seamless communication between the front-end and back-end, providing real-time updates without page reloads.
-Security Enhancements: Password hashing and secure authentication mechanisms to protect user data.
-System Overview:
-User Interface (Members)
-Course Registration & Management: Users can browse available gym courses, register, and manage their enrollments dynamically.
-Real-Time Updates: Course availability and schedules are fetched from the database dynamically using AJAX requests.
-Support Requests: Users can submit support tickets for assistance, enhancing communication with gym staff.
-Admin Interface
-Course Management: Administrators can create, update, and delete courses, modifying details like schedules, instructors, and availability.
-User Registration Oversight: Gym admins can monitor and manage user enrollments, ensuring course limits are enforced.
-Support Request Handling: Admins can review and respond to user queries through a structured ticketing system.
-Dynamic Content & Automation:
-Database-Driven Architecture: The system pulls and updates content dynamically, ensuring that schedules, user interactions, and registrations are always synchronized.
-Performance Optimization: Efficient SQL queries and API calls are used to minimize server load and improve responsiveness.
+---
+
+## Project Goals
+
+The objective is to provide an **interactive platform** for both gym members and administrators, built on a **modular, scalable, and secure architecture**.  
+The system enables **course registration**, **support ticketing**, **course management**, and real-time data updates through RESTful communication.
+
+---
+
+## Technologies and Architecture
+
+### Front-End
+- **Languages & Libraries**: HTML, CSS, JavaScript, jQuery  
+- **Features**:
+  - Responsive and intuitive interface
+  - Dynamic form validation and event handling
+  - Real-time content updates via AJAX
+
+### Back-End
+- **Language**: PHP (Object-Oriented)
+- **Security**:
+  - Password hashing
+  - Input sanitization
+  - Authentication management
+- **RESTful API**:
+  - Facilitates communication between front-end and back-end
+  - Allows asynchronous operations using AJAX
+
+### Database
+- **Engine**: MySQL
+- **Access**: PHP Data Objects (PDO)
+- **Security**:
+  - Prevention of SQL injection via prepared statements
+  - Separation of concerns for queries and logic
+
+---
+
+## System Overview
+
+### User Interface (Gym Members)
+- **Course Registration & Management**:  
+  Users can browse, register for, and manage gym course enrollments with live feedback on availability.
+- **Real-Time Data**:  
+  Information is dynamically loaded from the database using AJAX.
+- **Support Ticket System**:  
+  Users can submit queries or issues directly to staff via structured support requests.
+
+### Admin Interface (Gym Staff)
+- **Course Management**:  
+  Create, update, and delete gym courses, including instructor assignment and time scheduling.
+- **Enrollment Monitoring**:  
+  Administrators can manage user registrations and enforce course capacity limits.
+- **Support Handling**:  
+  Admins can view, manage, and respond to support tickets submitted by users.
+
+---
+
+## Dynamic Features & Optimization
+
+- **Database-Driven Architecture**:  
+  All content—course listings, schedules, user enrollments—is dynamically generated and updated in sync with the database.
+- **Performance Optimization**:  
+  Efficient SQL queries and modular API design ensure a responsive and scalable system even under high usage.
+
+---
+
+## Author
+
+Francesco Lazzarotto  
+Contact: francesco.lazzarotto@edu.unito.it
